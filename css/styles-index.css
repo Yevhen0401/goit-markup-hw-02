@@ -1,0 +1,253 @@
+:root {
+--color-hover: #FFFFFF;
+--color-background-hover: #2196F3;  
+--color-background-hover-button: #F5F4FA; 
+--color-item-adress: #757575;
+--color-text: #212121;
+
+}
+body {
+    background-color: var(--color-hover);
+    font-family: Roboto, sans-serif;
+    color: var(--color-text);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+a {
+    text-decoration: none; 
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+    text-decoration: none;   
+}
+nav {
+    list-style-type: none;
+}
+span {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color:var(--color-background-hover); 
+    text-decoration: none;   
+}
+ul {
+    list-style-type: none;
+}
+.site-nav .current {
+    color: var(--color-background-hover);
+}
+.header {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;      
+}
+.header:hover, :focus {
+    color: var(--color-background-hover);
+}
+.mail {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-item-adress);  
+    text-decoration: none; 
+    font-style: normal;         
+}
+.mail:hover, :focus {
+    color: var(--color-background-hover);
+}
+.phone {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-item-adress);  
+    text-decoration: none; 
+    font-style: normal;         
+}
+.phone:hover, :focus{
+    color: var(--color-background-hover);   
+}
+.title {
+    background-color: #2F303A;  
+}
+
+.slogan {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-hover);     
+}
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--color-hover);
+    background-color: var(--color-background-hover); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-family: inherit;
+} 
+.visually-hidden:hidden {
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
+.subtitle {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.03em;   
+}
+.tagline {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--color-item-adress);  
+}
+.subject {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--color-text);  
+    text-decoration: none; 
+} 
+.team {
+    background-color: var(--color-background-hover-button);
+}
+.adress {
+    font-weight: 400;
+    line-height: 1.71;
+    color:  var(--color-hover);
+    text-decoration: none; 
+    font-style: normal;        
+}
+.adress:hover, :focus {
+    color: var(--color-background-hover);
+}
+.information {
+    background-color: #2F303A;
+}
+.footer {
+    color: var(--color-hover);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    text-decoration: none;
+}
+.mail-footer {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);  
+    text-decoration: none; 
+    font-style: normal; 
+}
+.mail-footer:hover,:focus {
+    color: var(--color-background-hover);
+}
+.phone-footer:hover, :focus {
+    color: var(--color-background-hover);
+}
+.phone-footer {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6); 
+    text-decoration: none; 
+    font-style: normal;    
+}
+.all {
+    background-color: var(--color-background-hover-button);
+    border-radius: 4px;  
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    font-family: inherit;
+}
+.web {
+    background-color: var(--color-background-hover-button);
+    border-radius: 4px;  
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    font-family: inherit;    
+}
+.app {
+    background-color: var(--color-background-hover-button);
+    border-radius: 4px;  
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    font-family: inherit;
+}
+.dizayn {
+    background-color: var(--color-background-hover-button);
+    border-radius: 4px;  
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    font-family: inherit;
+}
+.marketing {
+    background-color: var(--color-background-hover-button);
+    border-radius: 4px;  
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    font-family: inherit;
+}
+.all:hover,:focus {
+    background-color: var(--color-background-hover);
+    color: var(--color-hover);
+}
+.web:hover,:focus {
+    background-color: var(--color-background-hover);
+    color: var(--color-hover);    
+}
+.app:hover,:focus {
+    background-color: var(--color-background-hover);
+    color: var(--color-hover);
+}
+.dizayn:hover,:focus {
+    background-color: var(--color-background-hover);
+    color: var(--color-hover);
+}
+.marketing:hover,:focus {
+    background-color: var(--color-background-hover);
+    color: var(--color-hover);
+}
