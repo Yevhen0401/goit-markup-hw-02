@@ -46,9 +46,11 @@ ul {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;      
+    text-decoration: none;
+    color: var(--color-text);      
 }
-.header:hover, :focus {
+.header:hover, 
+.header:focus {
     color: var(--color-background-hover);
 }
 .mail {
@@ -59,7 +61,8 @@ ul {
     text-decoration: none; 
     font-style: normal;         
 }
-.mail:hover, :focus {
+.mail:hover,
+.mail:focus {
     color: var(--color-background-hover);
 }
 .phone {
@@ -70,7 +73,8 @@ ul {
     text-decoration: none; 
     font-style: normal;         
 }
-.phone:hover, :focus{
+.phone:hover,
+.phone:focus{
     color: var(--color-background-hover);   
 }
 .title {
@@ -114,18 +118,39 @@ ul {
       margin: -1px;
   } 
 .subtitle {
-    font-weight: 700;
+    font-family: 'Roboto';
     font-style: normal;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.03em;   
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--color-text);
 }
 .tagline {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--color-item-adress);  
+}
+.subtitle-team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--color-text);
+}
+.tagline-team {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--color-item-adress);  
+    line-height: 1.18;
+    text-align: center;
+    color: var(--color-item-adress); 
 }
 .subject {
     font-weight: 700;
@@ -134,7 +159,25 @@ ul {
     text-align: center;
     color: var(--color-text);  
     text-decoration: none; 
+}
+.subtitle-portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-text);   
 } 
+.tagline-portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--color-item-adress);
+}
 .team {
     background-color: var(--color-background-hover-button);
 }
@@ -143,9 +186,10 @@ ul {
     line-height: 1.71;
     color:  var(--color-hover);
     text-decoration: none; 
-    font-style: normal;        
+    font-style: normal;
 }
-.adress:hover, :focus {
+.adress:hover,
+.adress:focus {
     color: var(--color-background-hover);
 }
 .information {
@@ -160,26 +204,29 @@ ul {
     text-decoration: none;
 }
 .mail-footer {
-    font-weight: 500;
-    line-height: 1.14;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.02em;
     color: rgba(255, 255, 255, 0.6);  
     text-decoration: none; 
     font-style: normal; 
 }
-.mail-footer:hover,:focus {
-    color: var(--color-background-hover);
-}
-.phone-footer:hover, :focus {
+.mail-footer:hover,
+.mail-footer:focus {
     color: var(--color-background-hover);
 }
 .phone-footer {
-    font-weight: 500;
-    line-height: 1.14;
+    font-weight: 400;
+    line-height: 1.71;
     letter-spacing: 0.02em;
     color: rgba(255, 255, 255, 0.6); 
     text-decoration: none; 
     font-style: normal;    
+}
+.phone-footer:hover,
+.phone-footer:focus {
+    color: var(--color-background-hover);
 }
 .all {
     background-color: var(--color-background-hover-button);
@@ -231,23 +278,28 @@ ul {
     text-align: center;
     font-family: inherit;
 }
-.all:hover,:focus {
+.all:hover,
+.all:focus {
     background-color: var(--color-background-hover);
     color: var(--color-hover);
 }
-.web:hover,:focus {
+.web:hover,
+.web:focus {
     background-color: var(--color-background-hover);
     color: var(--color-hover);    
 }
-.app:hover,:focus {
+.app:hover,
+.app:focus {
     background-color: var(--color-background-hover);
     color: var(--color-hover);
 }
-.dizayn:hover,:focus {
+.dizayn:hover,
+.dizayn:focus {
     background-color: var(--color-background-hover);
     color: var(--color-hover);
 }
-.marketing:hover,:focus {
+.marketing:hover,
+.marketing:focus {
     background-color: var(--color-background-hover);
     color: var(--color-hover);
 }
