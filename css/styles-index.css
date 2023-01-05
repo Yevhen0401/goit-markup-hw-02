@@ -58,7 +58,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-item-adress);  
-    text-decoration: none; 
+    text-decoration: none;
     font-style: normal;         
 }
 .mail:hover,
@@ -70,8 +70,8 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-item-adress);  
-    text-decoration: none; 
-    font-style: normal;         
+    text-decoration: none;    
+    font-style: normal;     
 }
 .phone:hover,
 .phone:focus{
@@ -118,8 +118,6 @@ ul {
       margin: -1px;
   } 
 .subtitle {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -127,16 +125,12 @@ ul {
     color: var(--color-text);
 }
 .tagline {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--color-item-adress);  
 }
 .subtitle-team {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -144,8 +138,6 @@ ul {
     color: var(--color-text);
 }
 .tagline-team {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -161,8 +153,6 @@ ul {
     text-decoration: none; 
 }
 .subtitle-portfolio {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -170,8 +160,6 @@ ul {
     color: var(--color-text);   
 } 
 .tagline-portfolio {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
